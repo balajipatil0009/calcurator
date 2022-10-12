@@ -5,9 +5,10 @@ function App() {
 
   return (
     <div className="App">
-   <h1>calculator</h1>
+  
    <div className='content'>
-   <input type={'text'} placeholder='enter number' id='balaji' className='dsply' readOnly></input>
+   <textarea type={'text'} placeholder='0' id='balaji' className='dsply' readOnly></textarea>
+   <div className='btndiv'>
    <div>
    <button onClick={event => show(event,9)} className='btn'>9</button>
    <button onClick={event => show(event,8)} className='btn'>8</button>
@@ -35,6 +36,7 @@ function App() {
    <div>
    <button onClick= {evaluate} className='last'>Result</button>
    <button onClick={backspace} className='last'>Backspac</button>
+   </div>
    </div>
    </div>
    </div>

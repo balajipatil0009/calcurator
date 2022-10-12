@@ -14,31 +14,35 @@ code {
     monospace;
 }
 .btn{
-  width: 30px;
-  margin-top: 10px;
+  width: 43px;
+  height: 44px;
+  border-radius: 48%;
   margin-left: 4px;
-  border: inset red;
 }
 .last{
-  width: 73px;
-  margin-top: 10px;
-  border: inset rgb(30, 255, 0);
+  width: 85px;
+  margin: 5px;
+  height: 30px;
+  border-radius: 12%;
 }
 .dsply{
-
-  width: 140px;
-  height: 20px;
-  border: inset red;
+  width: 182px;
+  height: 215px;
+  border: 0px;
+  background-color: #242323;
+  text-align: end;
+  font-size: 40px;
+  justify-self: stretch;
+  color: white;
 }
 
 .content{
-display: grid;
-justify-content: center;
-background-color: antiquewhite;
-margin: 0;
-padding: 15px;
-border: ridge #f7c328 10px;
-}
+ 
+  margin: 0;
+  padding: 15px;
+  height: 94%;
+  border-radius: 7%;
+  background-color: #000000de;}
 h1{
   background-color: rgba(252, 194, 87, 0.575);
   margin: 0;
